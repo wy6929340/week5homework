@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    <%- title %>
+  </title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/all.css">
+  <link rel="stylesheet" href="./assets/css/fontawesome.css">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/tool.css">
+  <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+
+<body>
+  <div class="wrap style-flex">
+
+    <aside class="answerMenu style-flex space-between">
+
+
+      <div>
+
+        <h2 class="answerMenu-h2 pl-32"><img src="./assets/images/logo-ANSWER.svg" alt=""></h2>
+        <ul class="answerMenulist">
+          <li class="answerMenulist-list pl-32"><i class="fas fa-columns"></i><a class="answerMenu-a font-bold" href="">Dashboard</a>
+          </li>
+          <li class="answerMenulist-list pl-32"><i class="far fa-question-circle"></i><a class="answerMenu-a font-bold"
+              href="">Question</a> </li>
+          <li class="answerMenulist-list pl-32"><i class="fas fa-list-alt"></i><a class="answerMenu-a font-bold" href="Assignment.html">Assignment</a>
+          </li>
+          <li class="answerMenulist-list pl-32"><i class="fas fa-caret-square-right"></i><a class="answerMenu-a font-bold"
+              href="">Course</a> </li>
+          <li class="answerMenulist-list pl-32"><i class="fas fa-users-cog"></i><a class="answerMenu-a font-bold" href="Admin.html">Admin</a>
+          </li>
+          <li class="answerMenulist-list pl-32"><i class="fas fa-cog"></i><a class="answerMenu-a font-bold" href="">Settings</a>
+          </li>
+        </ul>
+
+
+      </div>
+
+      <div class="answerMenu-user style-flex">
+        <img src="./assets/images/andychen.jpeg" alt="">
+        <div class="answerMenu-txt">
+          <p class="font-bold">Andy Chen</p>
+          <span class="answerMenu-txtspan">andy0401@mail.com</span>
+        </div>
+      </div>
+    </aside>
+    <section class="answerMain">
+
+      <%- contents %>
+    </section>
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

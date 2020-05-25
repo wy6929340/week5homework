@@ -1,0 +1,101 @@
+@import "color";
+@import "_General.scss";
+
+.answerMainList-new{
+    cursor: pointer;
+}
+.tableBox{
+    width: 936px;
+    margin: 0 auto;
+    .pen-style{
+        margin-left: 25px;
+    }
+}
+.paginationBox{
+    margin-top: 63px;
+    
+    .pagination-list{
+        border:1px solid $secondary;
+    }
+    .pagination-a{
+        color: $secondary; 
+    }
+}
+
+.modal-body{
+    width: 480px;
+}
+.width-style{
+    width: 416px;
+    margin: 0 auto;
+}
+.input-style{
+    width: 100%;
+    height: 51px;
+}
+.inputBOX{
+    
+    padding-bottom: 24px;
+    border-bottom: 1px solid $primary;
+}
+.h3-title{
+    font-size: 20px;
+}
+.input-name{
+    
+}
+.title-style{
+    margin-bottom: 18px;
+}
+.VerificationBox{
+    
+    .warningTitle{
+        font-size: 16px;
+        i{
+            margin-right: 9px;
+            color: red;
+        }
+    }
+    
+    .VerificationBox-button{
+        color:$secondary;
+    }
+}
+.accessLevelBox{
+    .accessLevel-option{
+        color: #0000009A;
+    }
+}
+.customAccess-check{
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #000000;
+}
+.customAccess-span{
+    display: block;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.checkbox-list{
+    
+    margin-bottom: 21px;
+}
+.footer-button-cancel{
+    width: 112px;
+    
+}
+.footer-button-add{
+    width: 93px;
+    
+}
+.footer-button{
+    background-color: $secondary;
+    color: #fff;
+    border: 1px solid $secondary;
+}
+.footer-button:hover{
+    background-color: #fff;
+    color:$secondary;
+}

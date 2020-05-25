@@ -1,0 +1,195 @@
+---
+title: Admin
+
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<header class="answerMain-header  ">
+    <div class="container style-flex space-between">
+        <ul class="answerMainList style-flex space-between">
+            <li class="answerMainList-list answerMainList-title font-bold">
+                Admin
+            </li>
+            <li class="answerMainList-list answerMainList-select answerMainList-new font-bold" data-toggle="modal"
+                data-target="#exampleModalCenter">
+                <i class="fas fa-plus"></i>
+                Add New Admin
+            </li>
+        </ul>
+        <ul class="answerMain-icon style-flex">
+            <li>
+                <i class="fas fa-search"></i>
+            </li>
+            <li>
+                <i class="fas fa-bell"></i>
+            </li>
+        </ul>
+
+    </div>
+
+</header>
+
+<div class="tableBox">
+
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Verified</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">#1</th>
+                <td>Emir Wicks</td>
+                <td>emir.wicks@mail.com</td>
+                <td>Yes</td>
+                <td><i class="fas fa-eye"></i> <i class="pen-style fas fa-pen"></i></td>
+            </tr>
+            <tr>
+                <th scope="row">#2</th>
+                <td>Zaina Goldsmith</td>
+                <td>zaina.goldsmith@mail.com</td>
+                <td>Yes</td>
+                <td><i class="fas fa-eye"></i> <i class="pen-style fas fa-pen"></i></td>
+            </tr>
+            <tr>
+                <th scope="row">#3</th>
+                <td>Mahima Lopez</td>
+                <td>Mahima.Lopez@mail.com</td>
+                <td>Yes</td>
+                <td><i class="fas fa-eye"></i> <i class="pen-style fas fa-pen"></i></td>
+            </tr>
+            <tr>
+                <th scope="row">#4</th>
+                <td>Pharrell Murray</td>
+                <td>Pharrell.Murray@mail.com</td>
+                <td>Yes</td>
+                <td><i class="fas fa-eye"></i> <i class="pen-style fas fa-pen"></i></td>
+            </tr>
+            <tr>
+                <th scope="row">#5</th>
+                <td>Annika Mcbride</td>
+                <td>Annika.Mcbride@mail.com</td>
+                <td>Yes</td>
+                <td><i class="fas fa-eye"></i> <i class="pen-style fas fa-pen"></i></td>
+            </tr>
+            <tr>
+                <th scope="row">#6</th>
+                <td>Fatimah Clark</td>
+                <td>Fatimah.Clark@mail.com</td>
+                <td>Yes</td>
+                <td><i class="fas fa-eye"></i> <i class="pen-style fas fa-pen"></i></td>
+            </tr>
+            <tr>
+                <th scope="row">#7</th>
+                <td>Klaudia Rhodes</td>
+                <td>Klaudia.Rhodes@mail.com</td>
+                <td>Yes</td>
+                <td><i class="fas fa-eye"></i> <i class="pen-style fas fa-pen"></i></td>
+            </tr>
+            <tr>
+                <th scope="row">#8</th>
+                <td>Tillie Lucero</td>
+                <td>Tillie.Lucero@mail.com</td>
+                <td>Yes</td>
+                <td><i class="fas fa-eye"></i> <i class="pen-style fas fa-pen"></i></td>
+            </tr>
+            <tr>
+                <th scope="row">#9</th>
+                <td>Sabrina Stephenson</td>
+                <td>Sabrina.Stephenson@mail.com</td>
+                <td>Yes</td>
+                <td><i class="fas fa-eye"></i> <i class="pen-style fas fa-pen"></i></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <nav aria-label="Page navigation example" class="paginationBox style-flex flex-end">
+        <ul class="pagination">
+            <li class="pagination-list page-item"><a class="pagination-a page-link" href="#">
+                    <</a> </li> <li class="pagination-list page-item"><a class="pagination-a page-link" href="#">1</a></li>
+            <li class="pagination-list page-item"><a class="pagination-a page-link" href="#">2</a></li>
+            <li class="pagination-list page-item"><a class="pagination-a page-link" href="#">3</a></li>
+            <li class="pagination-list page-item"><a class="pagination-a page-link" href="#">></a></li>
+        </ul>
+    </nav>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">New Admin</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+
+
+
+                    <div class="inputBOX width-style">
+                        <h3 class="h3-title">Account</h3>
+                        <label class="input-name " for="">Name</label><br>
+                        <input class="input-style mb-16" type="text">
+                        <label class="" for="">Email</label><br>
+                        <input class="input-style" type="email">
+                    </div>
+                    <div class="VerificationBox width-style inputBOX">
+                        <h3 class="title-style h3-title">Verification</h3>
+                        <h4 class="title-style warningTitle  "><i class="fas fa-exclamation-triangle "></i>unverified</h4>
+                        <input class="input-style VerificationBox-button" type="button" value="Send Verification Mail">
+                    </div>
+                    <div class="accessLevelBox width-style inputBOX">
+                        <h3 class="h3-title title-style">Access Level</h3>
+                        <select class="input-style" name="select" id="">
+                            <option class="accessLevel-option" value="-Choose access level-">-Choose access level-</option>
+                        </select>
+                    </div>
+                    <div class="customAccessBox width-style">
+                        <h3 class="title-style h3-title">Custom Access</h3>
+
+                        <ul>
+                            <li class="checkbox-list style-flex">
+                                <input class="customAccess-check" type="checkbox"><span class="customAccess-span">lecture</span>
+                            </li>
+                            <li class="checkbox-list style-flex">
+                                <input class="customAccess-check" type="checkbox"><span class="customAccess-span">Coupon</span>
+                            </li>
+                            <li class="checkbox-list style-flex">
+                                <input class="customAccess-check" type="checkbox"><span class="customAccess-span">Message</span>
+                            </li>
+                            <li class="checkbox-list style-flex">
+                                <input class="customAccess-check" type="checkbox"><span class="customAccess-span">Setting</span>
+                            </li>
+                            <li class="checkbox-list style-flex">
+                                <input class="customAccess-check" type="checkbox"><span class="customAccess-span">task
+                                    menu</span>
+                            </li>
+                        </ul>
+
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary footer-button footer-button-cancel font-bold"
+                        data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary footer-button footer-button-add font-bold">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

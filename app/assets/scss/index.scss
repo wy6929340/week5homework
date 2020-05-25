@@ -1,0 +1,224 @@
+@import "color";
+@import "_General.scss";
+@import "_admin.scss";
+
+
+.wrap{
+    width: 1280px;
+    margin: 0 auto;
+}
+.pl-32{
+    padding-left: 32px;
+}
+.answerMenu{
+    width: 296px;
+    height: 800px;
+    background-color:$primary;
+    flex-direction: column;
+    
+    .answerMenu-h2{
+        margin-bottom: 42px;
+        
+    }
+    .answerMenu-a{
+        color: #000;
+    }
+    .answerMenulist-list{
+        
+        margin-bottom: 29px;
+        i{
+            margin-right: 16px;
+        }
+    }
+}
+.answerMenu-user{
+    margin-left: 32px;
+    align-items: center;
+}
+.answerMenu-user img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.answerMenu-txt{
+    p{
+        margin-bottom: 0;
+    }
+    .answerMenu-txtspan{
+        font-size: 14px;
+    }
+}
+.answerMain{
+    width: 984px;
+    .answerMain-header{
+        height: 93px;
+    }
+}
+.container{
+    width: 920px;
+    height: 100%;
+    margin: 0 auto;
+}
+.answerMainList{
+    width: 320px;
+    align-items: center;
+    
+    
+        .answerMainList-title{
+            font-size: 24px;
+        }
+        .answerMainList-select{
+            font-size: 16px;
+        }
+    
+}
+.answerMain-icon{
+    width: 15%;
+    align-items: center;
+    justify-content: space-around;
+    i{
+        font-size: 20px;
+    }
+}
+
+
+
+
+/*-------------Assignment--------------*/
+.mb-16{
+    margin-bottom: 16px;
+}
+.answerMain-content{
+    width: 920px;
+    margin: 0 auto;
+}
+.answerMain-datalist{
+    
+    margin-right: 16px;
+    .dataList-list{
+        width: 320px;
+        height: 62px;
+        padding: 12px;
+        background-color:#fff ;
+        border: 0.5px solid $primary;
+    }
+}
+.datacontentBox{
+    border: 1px solid $primary;
+}
+.dataList-style{
+    font-size: 12px;
+}
+.dataList-name{
+    color: #0000009A;
+}
+
+.answerMain-datacontent{
+    width: 584px;
+    height: 587px;
+    .dataContent-title{
+        height: 62px;
+        padding-right: 16px;
+        padding-left: 16px;
+        
+        background-color: $primary;
+        align-items: center;
+
+    }
+    .title-span{
+        font-size: 12px;
+    }
+    .title-p{
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+    .title-icon{
+        font-size: 24px;
+    }
+}
+.dataContentmain-list{
+    height: 226px;
+   
+}
+.main-imgtxt{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.main-imgtxt img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.main-box{
+    width: 488px;
+}
+.main-name-span{
+    display: block;
+}
+.main-name-name{
+    font-size: 16px;
+    color: #000;
+
+}
+.main-name-hour{
+    font-size: 12px;
+    color: #0000009A;
+}
+.main-box-icon{
+    width: 60px;
+}
+.main-txt{
+    margin-left: 64px;
+    margin-right: 32px;
+    border-bottom: 1px solid $primary;
+    .main-txt-p{
+        font-size: 14px;
+    }
+}
+.main-txt-button{
+    width: 176px;
+    height: 40px;
+   
+    background-color: $primary;
+    border:1px solid #CDDDCD;
+}
+.main-txt-button:focus{
+    outline: none;
+}
+.style-buttonicon{
+    margin-right: 8px;
+}
+.buttonbox{
+    height: 40px;
+    align-items: center;
+}
+.arrowBox{
+    margin-right: 234px;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 0;
+}
+.arrowBox-list{
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+.arrowBox-list:nth-child(1){
+    margin-right: 23px;
+}
+.read{
+    width: 157px;
+    margin-right: 16px;
+    color: $secondary;
+    border: 1px solid $secondary;
+}
+.reply{
+    width: 105px;
+    background-color: $secondary;
+    color: #fff;
+}
+.buttonbox-button{
+    height: 35px;
+}
