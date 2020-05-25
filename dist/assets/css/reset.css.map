@@ -1,0 +1,1 @@
+{"version":3,"sources":["reset.css"],"names":[],"mappings":"AAAA;EACI,8BAAsB;UAAtB,sBAAsB;EACtB,qBAAqB;EACrB,UAAU;EACV,SAAS;EACT,gBAAgB,EAAA","file":"reset.css","sourcesContent":["*{\r\n    box-sizing: border-box;\r\n    text-decoration: none;\r\n    padding: 0;\r\n    margin: 0;\r\n    list-style: none;\r\n}"]}
